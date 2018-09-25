@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Order</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/orderStyles.css">
+	<link rel="stylesheet" type="text/css" href="css/css/fontawesome-all.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
+		<div class="container">
+			<a href="index.html#header" class="navbar-brand">
+				<img src="img/brand2.png" width="100" height="50" >
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-demo" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon" id="toggler"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="nav-demo">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="index.html#header" class="nav-link">Home</a>
+					</li>
+
+					<li class="nav-item">
+						<a href="index.html#about" class="nav-link">About Us</a>
+					</li>
+
+					<li class="nav-item">
+						<a href="index.html#menu" class="nav-link">Menu</a>
+					</li>
+
+					<li class="nav-item">
+						<a href="index.html#offers" class="nav-link">Special Offers</a>
+					</li>
+
+					<li class="nav-item">
+						<a href="order.html" class="nav-link active">Order</a>
+					</li>
+
+					<!-- <li class="nav-item">
+						<a href="#" class="nav-link">Gallery</a>
+					</li> -->
+
+					<li class="nav-item">
+						<a href="index.html#contact" class="nav-link">Contact Us</i></a>
+					</li>
+
+				</ul>
+
+			</div>
+		</div>
+	</nav>
+
+	<!-- <div class="container"> -->
+		<div id="boleSlides" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="row">
+						<div class="col-md-4 menu-item">
+							<div class=zoom>
+								<img src="img/1.jpg" class="boleMenu img-fluid">
+							</div>									
+								<h4 class="title">BACON IPSUM</h4>										
+						</div>
+
+						<div class="col-md-4 menu-item">
+							<div class="zoom">
+								<img src="img/9.jpeg" class="boleMenu img-fluid">
+							</div>
+
+								<h4 class="title">BOLE & FRIED STEW</h4>										
+						</div>
+
+						<div class="col-md-4 menu-item">
+							<div class="zoom">
+								<img src="img/3.jpg" class="boleMenu img-fluid">
+							</div>
+								<h4 class="title">BACON IPSUM</h4>										
+						</div>
+					</div>
+				</div>
+
+				<div class="carousel-item">
+					<div class="row">
+						<div class="col-md-4 menu-item">
+							<div class="zoom">
+								<img src="img/4.jpg" class="boleMenu img-fluid">
+							</div>
+									
+								<h4 class="title">BOLE KEBAB</h4>										
+						</div>
+
+						<div class="col-md-4 menu-item">
+							<div class="zoom">
+								<img src="img/5.jpg" class="boleMenu img-fluid">
+							</div>
+									
+								<h4 class="title">BACON IPSUM</h4>										
+						</div>
+
+						<div class="col-md-4 menu-item">
+							<div class="zoom">
+								<img src="img/6.jpg" class="boleMenu img-fluid">
+							</div>
+									
+								<h4 class="title">BACON IPSUM</h4>										
+						</div>
+					</div>
+				</div>			
+			</div>
+
+				<a class="carousel-control-prev cont" href="#boleSlides" role="button" data-slide="prev">
+    				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  				</a>
+  				<a class="carousel-control-next cont" href="#boleSlides" role="button" data-slide="next">
+    				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+  				</a>
+		</div>
+	<!-- </div> -->
+
+	<div class="container">
+
+		<div class="row">
+			<div class="col-lg-9">
+				<table>
+					<thead>
+						<tr>
+							<th><h4>Item</h4></th>
+							<th><h4>Price</h4></th>
+							<th><h4>Add To Cart</h4></th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<td class="item"><p>Bole & Fried Stew</p></td>
+							<td><p>N<span class="priceText">300.00</span></p></td>
+							<td class="packcol"><i class="fas fa-plus" id="stewPlus"></i></p></td>
+						</tr>
+
+						<tr>
+							<td class="item"><p>Bole kebab</p></td>
+							<td><p>N300.00</p></td>
+							<td class="packcol"><i class="fas fa-plus" id="kebabPlus"></i></p></td>
+						</tr>
+
+						<tr>
+							<td class="item"><p>Plain Bole</p></td>
+							<td><p>N300.00</p></td>
+							<td class="packcol"><i class="fas fa-plus" id="plainPlus"></i></p></td>
+						</tr>
+
+						<tr>
+							<td class="item"><p>Bacon Ipsum</p></td>
+							<td><p>N300.00</p></td>
+							<td class="packcol"><i class="fas fa-plus" id="ipsum1Plus"></i></p></td>
+						</tr>
+
+						<tr>
+							<td class="item"><p>Bacon Ipsum</p></td>
+							<td><p>N300.00</p></td>
+							<td class="packcol"><i class="fas fa-plus" id="ipsum2Plus"></i></p></td>
+						</tr>
+
+						<tr>
+							<td class="item"><p>Bacon Ipsum</p></td>
+							<td><p>N300.00</p></td>
+							<td class="packcol"><i class="fas fa-plus" id="ipsum3Plus"></i></p></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="col-lg-3">
+				<i class="fas fa-shopping-cart"></i>
+				<div class="shop">
+					<p id="purchased">Your cart is empty</p>
+					<p id="stew" class="msg"></p>
+					<p id="kebab" class="msg"></p>
+					<p id="plain" class="msg"></p>
+					<p id="ipsum1" class="msg"></p>
+					<p id="ipsum2" class="msg"></p>
+					<p id="ipsum3" class="msg"></p>
+				</div>
+
+				<p id="tots">Total: ₦<span id="total">0</span></p>
+				<button role="button" href="order.html" id="reset" class="btn btn-outline-primary">CLEAR</button>
+				<button role="button" href="order.html" id="orderbtn" class="btn btn-outline-primary">ORDER</button>
+			</div>
+		</div>
+		
+
+	</div>
+
+	<div id="footer">
+		<h3 class="special updates">Get Updates From Our Newsletter</h3>
+		<form>
+			<div class="form-group formpad">
+				<input type="email" id="email" class="form-control formpad" placeholder="Enter email">
+				<button type="submit" id="submit" class="btn btn-primary formpad">Submit</button>
+			</div>
+		</form>
+		<a class="fab fa-facebook-square icon2" href="#"></a>
+		<a class="fab fa-twitter-square icon2" href="#"></a>
+		<a class="fab fa-instagram icon2" href="#"></a>
+
+					
+	</div>
+
+
+	
+
+	<script src="js/jquery.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="	sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+	<script src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/order.js"></script>
+</body>
+</html>

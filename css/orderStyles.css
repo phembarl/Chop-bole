@@ -1,3 +1,9 @@
+body{
+	padding-top: 100px;
+	position: relative;
+	color: #543212;
+}
+
 .navbar-light .navbar-nav .nav-link{
 	font-size: 18px;
 }
@@ -9,84 +15,6 @@
 
 .navbar-light .navbar-nav .nav-link.active{
     color: #ff7100;
-}
-
-.navbar-toggler-icon{
-	height: 80px;
-	width: 70px;
-}
-
-body{
-	color:#543212;
-	font-size: 20px;
-	position:relative;
-}
-
-#header{
-	background-image: url("../img/1.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 700px;
-	width: 100%;
-	position: relative;
-}
-
-.fa-chevron-down{
-	position: relative;
-	z-index: 1;
-	color:#ff7100;
-	opacity: 0.7;
-	margin-top: 8%;
-	font-size: 50px;
-}
-
-.fa-chevron-down:hover{
-	color:#ff7100;
-	opacity: 1;
-}
-
-#chopBoleText{
-	z-index: 1;
-	color:#ff7100;
-	font-size: 150px;
-	font-family: pacifico;
-	position:relative;
-}
-
-#headerContent{
-	text-align: center;
-	padding-top: 18%;
-}
-
-.image-overlay{
-	position: absolute;
-	display:block;
-	width:100%;
-	height:100%;
-	top: 0;
-	bottom: : 0;
-	left: 0;
-	right: 0;
-	background-color: rgba(0,0,0,0.6);
-}
-
-.divPad{
-	padding-top:100px;
-}
-
-#about{
-	text-align: justify;
-	font-size: 20px;
-	font-family: Raleway;
-	color:#543212;
-}
-
-h2{
-	font-family: cursive;
-	letter-spacing: 3.5px;
-	color:#ff7100;
-	text-align: center;
-	padding-bottom: 30px;
 }
 
 .boleMenu{
@@ -134,12 +62,6 @@ h2{
 	padding:15px;
 }
 
-/*.bole-info{
-    font-family: raleway, sans-serif;
-    text-align: center;
-    
-}*/
-
 .title{
 	padding-top: 15px;
 	font-size: 1.5rem;
@@ -148,35 +70,50 @@ h2{
 	text-align: center;
 }
 
-.info{
-	font-size:1.2rem;
+#boleSlides{
+	padding-left: 150px;
+	padding-right: 150px;
 }
 
-.awesome{
-	text-align: center;
-	margin-top: 100px;
-	padding-left: 15px;
-	padding-right: 15px;
+table{
+	margin-top:50px;
+	width: 100%;
+	font-size: 20px;
 }
 
-.icon{
-	color:#543212;
-	font-size:65px;
-	margin-bottom: 30px;
-	margin-top: 30px;
-}
-
-.special{
+th{
 	color:#ff7100;
-	font-family: Raleway, sans-serif;
+}
+
+.item{
+	font-weight: 500;
+}
+
+td{
+	padding-top:19px;
+	padding-bottom:19px;
+	color:#543212;
 }
 
 #orderbtn{
-	margin-top: 50px;
-	width:200px;
+	margin-top: 25px;
+	margin-left: 25px;
+	width:100px;
 	padding-top:10px;
 	padding-bottom:10px;
 	text-align: center;
+	background: #ff7100;
+	color: #fff;
+}
+
+#reset{
+	margin-top: 25px;
+	margin-left: 25px;
+	width:100px;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align: center;
+	/*float: right;*/
 }
 
 .btn-outline-primary{
@@ -196,16 +133,79 @@ h2{
 	border-color: #ff7100;
 }
 
+#reset:active{
+	background: #ff7100;
+	border-color: #ff7100;
+}
+
 #orderbtn:focus, #orderbtn.focus{
 	box-shadow: 0 0 0 0.05rem #ff7100;
 }
 
-#contact{
-	text-align: center;
+#reset:focus, #reset.focus{
+	box-shadow: 0 0 0 0.05rem #ff7100;
 }
 
-.coninfo{
-	color:#ff7100;
+.packcol{
+	padding-left: 50px;
+}
+
+/*.fa-minus{
+	font-size: 8px;
+	padding-right: 5px;
+	cursor: pointer;
+}*/
+
+.fa-plus{
+	font-size: 15px;
+	padding-left: 5px;
+	cursor: pointer;
+}
+
+.shop{
+	height: 200px;
+	overflow-y: scroll;
+}
+
+.shop::-webkit-scrollbar {
+    width: 0.5em;
+}
+ 
+.shop::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(255,113,0,0.3);
+    border-radius: 8px;
+}
+ 
+.shop::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 113, 0, .8);
+  outline: 1px solid #ff7100;
+  border-radius: 8px;
+}
+
+.fa-shopping-cart{
+	font-size: 100px;
+	text-align: right;
+	margin-top: 100px;
+	margin-bottom: 30px;
+	padding-left: 35px;
+}
+
+.msg{
+	margin-left: 35px;
+	margin-right: 5px;
+	/*margin-top: 30px;*/
+}
+
+#purchased{
+	margin-left: 35px;
+	margin-right: 5px;
+	margin-top: 80px;
+}
+
+#tots{
+	margin-left: 35px;
+	margin-top: 15px;
+	font-weight: bold;
 }
 
 .formpad{
@@ -260,17 +260,15 @@ h2{
 #footer{
 	text-align: center;
 	background:#543212;
+	margin-top:100px;
 }
 
-.img-thumbnail{
-	border:none;
+.special{
+	color:#ff7100;
+	font-family: Raleway, sans-serif;
 }
 
-.carousel-control-prev{
-	color: #ff7100;
-}
-
-#boleSlides{
-	padding-left: 150px;
-	padding-right: 150px;
+.updates{
+	padding-top:50px;
+	padding-bottom:20px;
 }
